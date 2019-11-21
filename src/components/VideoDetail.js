@@ -4,9 +4,9 @@ const VideoDetail = ({ video }) => {
     if (!video) {
         return <div>Loading...</div>
     }
-
+    
     const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;
-//comments
+//adding comments to explain stuff haha
     return (
         <div>
             <div className="ui embed">
